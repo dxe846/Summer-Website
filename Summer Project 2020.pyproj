@@ -65,12 +65,17 @@
     <Folder Include="app\templates\app\" />
     <Folder Include="blog\" />
     <Folder Include="blog\migrations\" />
+    <Folder Include="blog\static\" />
+    <Folder Include="blog\static\css\" />
     <Folder Include="blog\templates\" />
     <Folder Include="blog\templates\blog\" />
     <Folder Include="Summer_Project_2020\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog\static\css\blog.css" />
+    <Content Include="blog\templates\blog\base.html" />
     <Content Include="blog\templates\blog\index.html" />
+    <Content Include="blog\templates\blog\post_detail.html" />
     <Content Include="blog\templates\blog\post_list.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />

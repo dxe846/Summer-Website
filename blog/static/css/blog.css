@@ -1,29 +1,38 @@
 .page-header {
     background-color: #C25100;
-    margin-top: 0;
+    margin-top: 0px;
     padding: 20px 20px 20px 40px;
 }
 
     .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
         color: #ffffff;
         font-size: 36pt;
-        
+        margin-left: 18%;
         font-family: "courier New", Courier, monospace;
         letter-spacing: 0.15em;
         text-decoration: none;
     }
-
+#parallax {
+    margin: -25px 0 0 0;
+    background-image: url('../Images/motherboard.jpg');
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .content {
-    margin-left: 40px;
+    
+    margin-left: 33%;
 }
 
 h1, h2, h3, h4 {
-   
+    
     font-family: "courier New", Courier, monospace;
 }
 
 .date {
-    color: #828282;
+    color: #de7b00;
 }
 
 .save {
@@ -42,12 +51,13 @@ h1, h2, h3, h4 {
 }
 
 .post {
+    color: #ffffff;
     margin-left: 40px;
     margin-bottom: 70px;
 }
 
     .post h2 a, .post h2 a:visited {
-        color: #000000;
+        color: #ffd800;
     }
 
 

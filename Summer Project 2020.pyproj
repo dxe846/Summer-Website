@@ -67,12 +67,15 @@
     <Folder Include="blog\migrations\" />
     <Folder Include="blog\static\" />
     <Folder Include="blog\static\css\" />
+    <Folder Include="blog\static\Images\" />
     <Folder Include="blog\templates\" />
     <Folder Include="blog\templates\blog\" />
     <Folder Include="Summer_Project_2020\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="blog\static\css\blog.css" />
+    <Content Include="blog\static\Images\blackwall.jpg" />
+    <Content Include="blog\static\Images\motherboard.jpg" />
     <Content Include="blog\templates\blog\base.html" />
     <Content Include="blog\templates\blog\index.html" />
     <Content Include="blog\templates\blog\post_detail.html" />
